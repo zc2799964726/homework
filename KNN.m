@@ -51,5 +51,5 @@ for i=1:2184
     end
 end
 
-
+save('label.mat','label');
 %Class = knnclassify(test_data,train_data,train_label, 3,  'euclidean', 'nearest')
